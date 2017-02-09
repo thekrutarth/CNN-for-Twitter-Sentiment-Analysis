@@ -1,7 +1,7 @@
 **[This code is a modified version of code for this article "Implementing a CNN for Text Classification in Tensorflow" blog post.](http://www.wildml.com/2015/12/implementing-a-cnn-for-text-classification-in-tensorflow/)**
 
-It is slightly simplified implementation of Kim's [Convolutional Neural Networks for Sentence Classification](http://arxiv.org/abs/1408.5882) paper in Tensorflow.
-It is modified to perform better on Tweet Data and performs a Three CLass Classification viz. Positive Tweets, Negative Tweets and Neutral Tweets
+It is slightly simplified implementation of Kim's [Convolutional Neural Networks for Sentence Classification](http://arxiv.org/abs/1408.5882) paper in Tensorflow. </br>
+It is modified to perform better on Tweet Data and performs a Three Class Classification viz. Positive Tweets, Negative Tweets and Neutral Tweets
 
 ## Requirements
 
