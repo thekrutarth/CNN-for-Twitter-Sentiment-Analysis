@@ -1,6 +1,7 @@
-**[This code belongs to the "Implementing a CNN for Text Classification in Tensorflow" blog post.](http://www.wildml.com/2015/12/implementing-a-cnn-for-text-classification-in-tensorflow/)**
+**[This code is a modified version of code for this article "Implementing a CNN for Text Classification in Tensorflow" blog post.](http://www.wildml.com/2015/12/implementing-a-cnn-for-text-classification-in-tensorflow/)**
 
 It is slightly simplified implementation of Kim's [Convolutional Neural Networks for Sentence Classification](http://arxiv.org/abs/1408.5882) paper in Tensorflow.
+It is modified to perform better on Tweet Data and performs a Three CLass Classification viz. Positive Tweets, Negative Tweets and Neutral Tweets
 
 ## Requirements
 
@@ -56,7 +57,7 @@ Train:
 ## Evaluating
 
 ```bash
-./eval.py --eval_train --checkpoint_dir="./runs/1459637919/checkpoints/"
+./eval.py --eval_train --checkpoint_dir="./runs/1459637919/checkpoints/" #Sample Checkpoint
 ```
 
 Replace the checkpoint dir with the output from the training. To use your own data, change the `eval.py` script to load your data.
